@@ -17,7 +17,7 @@
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #3498db;
+    background-color: #154360;
     color: white;
     border: none;
     border-radius: 5px;
@@ -26,13 +26,13 @@
 }
 
 .nav-btn:hover {
-    background-color: #2980b9;
+    background-color: #154360;
 }
 
 .tab-content {
     display: none;
     padding: 20px;
-    border: 1px solid #bdc3c7;
+    border: 1px solid #154360;
     border-radius: 5px;
     background-color: #f5f8fa;
     max-width: 600px;
