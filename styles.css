@@ -8,29 +8,36 @@
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav-btn {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #154360;
+    background-color: #3498db;
     color: white;
     border: none;
     border-radius: 5px;
+    flex: 1;
+    text-align: center;
 }
 
 .nav-btn:hover {
-    background-color: #154360;
+    background-color: #2980b9;
 }
 
 .tab-content {
     display: none;
     padding: 20px;
-    margin-right: 20px;
     border: 1px solid #bdc3c7;
     border-radius: 5px;
     background-color: #f5f8fa;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tab-content.active {
