@@ -1,0 +1,38 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #154360;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav-btn:hover {
+    background-color: #154360;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    margin-right: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    background-color: #f5f8fa;
+}
+
+.tab-content.active {
+    display: block;
+}
